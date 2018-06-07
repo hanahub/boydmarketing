@@ -231,7 +231,7 @@ function sp_customizer_output() {
 }
 add_action( 'wp_enqueue_scripts', 'sp_customizer_output', 100 );
 
-add_action( 'genesis_before', 'bm_genesis_before', 100 );
+// add_action( 'genesis_before', 'bm_genesis_before', 100 );
 function bm_genesis_before() {
 	echo '<div class="ibm_banner">';
 		echo '<a href="' . site_url() . '/ibm-watson"><img class="ibm_banner_img" src="https://boydmarketing.com/wp-content/uploads/boyd-marketing-ibm-watson-partner.png" /></a>';

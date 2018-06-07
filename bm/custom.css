@@ -3,7 +3,6 @@ body, h1, h2, h3, h4, h5, h6, .widget-title {
 	font-family: 'Roboto', sans-serif;
 }
 
-
 .team .row {
 	margin: 0px;
 	padding: 0px;
@@ -233,15 +232,15 @@ main#genesis-content {
 	text-transform: uppercase;
 }
 .home .featured .advice {
-	background: #333 url('/wp-content/uploads/home-banner-advice.jpg') no-repeat;
+	background: #333 url('https://boydmarketing.com/wp-content/uploads/home-banner-advice.jpg') no-repeat;
 	background-size: cover;
 }
 .home .featured .development {
-	background: #333 url('/wp-content/uploads/home-banner-develop.jpg') no-repeat;
+	background: #333 url('https://boydmarketing.com/wp-content/uploads/home-banner-develop.jpg') no-repeat;
 	background-size: cover;
 }
 .home .featured .marketing {
-	background: #333 url('/wp-content/uploads/home-banner-marketing.jpg') no-repeat;
+	background: #333 url('https://boydmarketing.com/wp-content/uploads/home-banner-marketing.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -1474,7 +1473,7 @@ ul.morelist li {
 	padding-top: 0px;
 }
 .taptap-by-bonfire .menu > li:last-child {
-	border-top: 0px;
+	/* border-top: 0px; */
 }
 .taptap-by-bonfire .menu li a:hover,
 .taptap-by-bonfire ul.sub-menu li.full-item-arrow-hover > a, .taptap-by-bonfire ul.sub-menu li a:hover {
@@ -1503,6 +1502,10 @@ ul.morelist li {
 .desktop_only {
 	display: block;
 }
+ul.slick-dots {
+	margin: 0px;
+	left: 0px;
+}
 @media screen and (max-width: 768px) {
 	.mobile_only {
 		display: block;
@@ -1518,6 +1521,12 @@ ul.morelist li {
 		height: auto !important;
 	}
 	#services-menu {
-	  margin-top: 0px;
+	  margin-top: 49px;
+	}
+	#home-featured > .inner-wrap {
+		margin-bottom: 35px;
+	}
+	.home .featured .box {
+		margin: 10px;
 	}
 }
